@@ -4,18 +4,19 @@
  */
 package com.portfolioBackEnd.portfolioBackEnd.service;
 
-import com.portfolioBackEnd.portfolioBackEnd.model.persona;
+import com.portfolioBackEnd.portfolioBackEnd.model.Persona;
 import java.util.List;
 
-/**
- *
- * @author david
- */
-public interface IpersonaService {
+public interface IPersonaService {
+    //Traer una lista de personas
+    public List<Persona> getPersona();
     
-    public List<persona> verPersona();
-    public void crearPersona (persona pers);
-    public void borrarPersona(Long id);
-    public persona buscarPersona(Long id);
+    //Guardar un objeto de tipo Persona
+    public void savePersona(Persona persona);
     
+    //Eliminar un objeto pero lo buscamos por ID
+    public void deletePersona(Long id);
+    
+    //Buscar una persona por ID
+    public Persona findPersona(Long id);
 }

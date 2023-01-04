@@ -4,13 +4,11 @@
  */
 package com.portfolioBackEnd.portfolioBackEnd.repository;
 
-import com.portfolioBackEnd.portfolioBackEnd.model.educacion;
+import com.portfolioBackEnd.portfolioBackEnd.model.Persona;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-/**
- *
- * @author david
- */
-public interface educacionRepository extends JpaRepository <educacion, Long> {
+@Repository
+public interface IPersonaRepository extends JpaRepository<Persona,Long> {
     
 }
