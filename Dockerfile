@@ -1,6 +1,6 @@
-FROM amazoncorretto:11-alpine-jdk
+FROM amazoncorretto:19-alpine-jdk
 
-MAINTAINER tunombre_o_alias
+MAINTAINER daviss
 
 COPY target/portfolioBackEnd-0.0.1-SNAPSHOT.jar portfolio.jar
 
