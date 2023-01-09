@@ -1,6 +1,8 @@
 
-FROM openjdk:11
-MAINTAINER acs
-COPY /target/portfolioBackEnd-0.0.1-SNAPSHOT.jar portfolioBackEnd.jar
-EXPOSE 8080
-ENTRYPOINT ["java","-jar","portfolioBackEnd.jar"]
+FROM amazoncorretto:11-alpine-jdk
+
+MAINTAINER David Ginaca
+
+COPY target/portfolioBackEnd-0.0.1-SNAPSHOT.jar app.jar
+
+ENTRYPOINT ["java","-jar","/app.jar"]
