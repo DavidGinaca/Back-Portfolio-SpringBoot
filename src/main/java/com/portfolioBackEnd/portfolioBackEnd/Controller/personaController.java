@@ -5,12 +5,12 @@
 package com.portfolioBackEnd.portfolioBackEnd.Controller;
 
 
-/*import com.portfolioBackEnd.portfolioBackEnd.Security.Controller.Mensaje;*/
+import com.portfolioBackEnd.portfolioBackEnd.Security.Controller.Mensaje;
 import com.portfolioBackEnd.portfolioBackEnd.dto.dtoPersona;
 import com.portfolioBackEnd.portfolioBackEnd.model.Persona;
 import com.portfolioBackEnd.portfolioBackEnd.service.ImpPersonaService;
 import java.util.List;
-/*import org.apache.commons.lang3.StringUtils;*/
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -41,7 +41,7 @@ public class PersonaController {
     @GetMapping("/detail/{id}")
     public ResponseEntity<Persona> getById(@PathVariable("id")int id){
         if(!personaService.existsById(id)){
-            return new ResponseEntity/*(new Mensaje("No existe el ID"),*/ (HttpStatus.BAD_REQUEST);
+            return new ResponseEntity(new Mensaje("No existe el ID"), HttpStatus.BAD_REQUEST);
         }
         
         Persona persona = personaService.getOne(id).get();
@@ -50,31 +50,31 @@ public class PersonaController {
     /*@PreAuthorize("hasRole('ADMIN')")*/
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> delete(@PathVariable("id") int id){
-        /*if(!personaService.existsById(id)){
+        if(!personaService.existsById(id)){
             return new ResponseEntity(new Mensaje("No existe el ID"), HttpStatus.NOT_FOUND);
-        }*/
+        }
         personaService.delete(id);
-        return new ResponseEntity/*(new Mensaje("Persona eliminada"),*/ (HttpStatus.OK);
+        return new ResponseEntity(new Mensaje("Persona eliminada"), HttpStatus.OK);
     }
    /* @PreAuthorize("hasRole('ADMIN')")*/
     @PostMapping("/create")
     public ResponseEntity<?> create(@RequestBody dtoPersona dtopersona){
-       /* if(StringUtils.isBlank(dtopersona.getNombre())){
+        if(StringUtils.isBlank(dtopersona.getNombre())){
             return new ResponseEntity(new Mensaje("El nombre es obligatorio"), HttpStatus.BAD_REQUEST);
-        }*/
+        }
        
         
         Persona persona = new Persona(
                 dtopersona.getNombre(), dtopersona.getApellido(), dtopersona.getImg(), dtopersona.getImg()
             );
         personaService.save(persona);
-        return new ResponseEntity/*(new Mensaje("Persona creada"),*/ (HttpStatus.OK);
+        return new ResponseEntity(new Mensaje("Persona creada"), HttpStatus.OK);
                 
     }
   /*  @PreAuthorize("hasRole('ADMIN')")*/
     @PutMapping("/update/{id}")
     public ResponseEntity<?> update(@PathVariable("id") int id, @RequestBody dtoPersona dtopersona){
-        /*if(!personaService.existsById(id)){
+        if(!personaService.existsById(id)){
             return new ResponseEntity(new Mensaje("No existe el ID"), HttpStatus.NOT_FOUND);
         }
         if(personaService.existsByNombre(dtopersona.getNombre()) && personaService.getByNombre(dtopersona.getNombre()).get().getId() != id){
@@ -82,7 +82,7 @@ public class PersonaController {
         }
         if(StringUtils.isBlank(dtopersona.getNombre())){
             return new ResponseEntity(new Mensaje("El campo no puede estar vacio"), HttpStatus.BAD_REQUEST);
-        }*/
+        }
         
         Persona persona = personaService.getOne(id).get();
         
@@ -95,6 +95,6 @@ public class PersonaController {
         
         personaService.save(persona);
         
-        return new ResponseEntity/*(new Mensaje("Persona actualizada"),*/ (HttpStatus.OK);
+        return new ResponseEntity(new Mensaje("Persona actualizada"), HttpStatus.OK);
     }
 }
