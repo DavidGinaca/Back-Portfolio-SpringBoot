@@ -1,4 +1,3 @@
-com\portfolioBackEnd\portfolioBackEnd\Security\Controller\Mensaje.class
 com\portfolioBackEnd\portfolioBackEnd\service\ImpPersonaService.class
 com\portfolioBackEnd\portfolioBackEnd\repository\RExperiencia.class
 com\portfolioBackEnd\portfolioBackEnd\model\Educacion.class
