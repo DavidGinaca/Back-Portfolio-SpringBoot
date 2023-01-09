@@ -16,7 +16,6 @@
     <description>portfolio project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
-        <start-class>com.portfolio.backend.BackendApplication</start-class>
     </properties>
     <dependencies>
         <dependency>
