@@ -1,3 +1,5 @@
+com\portfolioBackEnd\portfolioBackEnd\Controller\CHys.class
+com\portfolioBackEnd\portfolioBackEnd\dto\dtoHys.class
 com\portfolioBackEnd\portfolioBackEnd\Security\Service\UsuarioService.class
 com\portfolioBackEnd\portfolioBackEnd\model\Educacion.class
 com\portfolioBackEnd\portfolioBackEnd\PortfolioBackEndApplication.class
@@ -22,13 +24,16 @@ com\portfolioBackEnd\portfolioBackEnd\repository\RExperiencia.class
 com\portfolioBackEnd\portfolioBackEnd\Security\Dto\LoginUsuario.class
 com\portfolioBackEnd\portfolioBackEnd\Controller\PersonaController.class
 com\portfolioBackEnd\portfolioBackEnd\Controller\CEducacion.class
+com\portfolioBackEnd\portfolioBackEnd\repository\Rhys.class
 com\portfolioBackEnd\portfolioBackEnd\model\Experiencia.class
 com\portfolioBackEnd\portfolioBackEnd\Security\Service\UserDetailsImpl.class
 com\portfolioBackEnd\portfolioBackEnd\dto\dtoEducacion.class
 com\portfolioBackEnd\portfolioBackEnd\Security\Entity\Rol.class
+com\portfolioBackEnd\portfolioBackEnd\service\Shys.class
 com\portfolioBackEnd\portfolioBackEnd\Security\Dto\JwtDto.class
 com\portfolioBackEnd\portfolioBackEnd\Security\jwt\JwtTokenFilter.class
 com\portfolioBackEnd\portfolioBackEnd\Security\jwt\JwtProvider.class
+com\portfolioBackEnd\portfolioBackEnd\model\hys.class
 com\portfolioBackEnd\portfolioBackEnd\Security\Entity\Usuario.class
 com\portfolioBackEnd\portfolioBackEnd\Security\Enums\RolNombre.class
 com\portfolioBackEnd\portfolioBackEnd\Security\Repository\iRolRepository.class
