@@ -7,14 +7,14 @@ package com.portfolioBackEnd.portfolioBackEnd.dto;
 import javax.validation.constraints.NotBlank;
 import lombok.Getter;
 import lombok.Setter;
-
 /**
  *
  * @author david
  */
+
 @Getter @Setter
 public class dtoPersona {
-
+    
     @NotBlank
     private String nombre;
     @NotBlank
@@ -33,7 +33,5 @@ public class dtoPersona {
         this.descripcion = descripcion;
         this.img = img;
     }
-    
-    
     
 }

@@ -17,7 +17,7 @@ import lombok.Setter;
 
 @Getter @Setter
 @Entity
-public class Persona implements Serializable {
+public class Persona {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
@@ -44,7 +44,7 @@ public class Persona implements Serializable {
         this.descripcion = descripcion;
         this.img = img;
     }
-
-       
+    
+    
     
 }
