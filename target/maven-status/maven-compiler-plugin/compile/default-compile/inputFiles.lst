@@ -4,6 +4,7 @@ C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\por
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\Controller\CHys.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\Security\Dto\NuevoUsuario.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\Security\jwt\JwtProvider.java
+C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\repository\ProyectoRepo.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\Security\Repository\iRolRepository.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\Security\Entity\Usuario.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\dto\dtoPersona.java
@@ -12,6 +13,7 @@ C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\por
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\repository\RExperiencia.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\Controller\CEducacion.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\Controller\CExperiencia.java
+C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\Controller\ProyectoController.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\Security\MainSecurity.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\Security\Service\RolService.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\dto\dtoEducacion.java
@@ -19,12 +21,15 @@ C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\por
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\service\Shys.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\repository\IpersonaRepo.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\Security\Entity\UsuarioPrincipal.java
+C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\model\Proyecto.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\Security\Controller\AuthController.java
+C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\service\ProyectoService.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\model\hys.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\service\Seducacion.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\Security\Controller\Mensaje.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\model\Educacion.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\Controller\CPersona.java
+C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\service\IProyectoService.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\dto\dtoExperiencia.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\Security\jwt\JwtTokenFilter.java
 C:\Users\david\Documents\NetBeansProjects\portfolioBackEnd\src\main\java\com\portfolioBackEnd\portfolioBackEnd\PortfolioBackEndApplication.java
